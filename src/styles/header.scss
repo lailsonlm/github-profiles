@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  padding: 0 30px;
+
+  background: var(--green-750);
+
+  div {
+    display: flex;
+    align-items: center;
+    
+    h1 {
+      color: var(--green-250);
+      font-weight: 500;
+      margin-right: 15px;
+    }
+
+    svg {
+      width: 30px;
+      height: 30px;
+
+      stroke: var(--green-250);
+    }
+    
+  }
+}

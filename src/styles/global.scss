@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green-100: #e8fccf;
+  --green-150: #f0fce0;
+  --green-250: #96e072;
+  --green-500: #3da35d;
+  --green-750: #3e8914;
+  --green-900: #134611;
+}
+
+body {
+  font: 16px 'Poppins', sans-serif;
+  color: #121214;
+  background: var(--green-100);
+}
