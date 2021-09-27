@@ -1,32 +1,18 @@
 # GitHub Profiles
-**Tier:** 2-Intermediate
 
-APIs allow you to use the real world data that drives platforms like GitHub. You can communicate with the remote servers and get data that you can use to build an app.
+![App Ideas Image](./github_profile_demo.gif)
 
-In this project you create a search app that uses GitHub API to retrieve user information when a valid username is input. It should display avatar, username, followers count, repository count, top 4 repositories based on forks and stars.
+Aplicação desenvolvida para pesquisa de informações do usuário GitHub  utilizando sua API. Na pesquisa, quando um nome de usuário válido é inserido ele irá exibir avatar, nome de usuário, contagem de seguidores, contagem de repositório, 4 repositórios principais.
 
+- Ideia retirada do [App-ideas](https://github.com/florinpop17/app-ideas)
 ## User Stories
 
 -   [x] User can enter a username
 -   [x] User can click on search button to retrieve information
--   [ ] User can see the avatar, username, followers and repository count of searched user
--   [ ] User can see the top 4 repositories of searched user
--   [ ] User should get an alert if the username is not valid
+-   [x] User can see the avatar, username, followers and repository count of searched user
+-   [x] User can see the top 4 repositories of searched user
+-   [x] User should get an alert if the username is not valid
 
 ## Bonus features
 -  [ ] User can toggle dark/light mode
 -  [ ] Selected mode should persist when user comes back to the app again
-
-## Useful links and resources
-To get the data you need to communicate with GitHub API. you can either
-
-- [Read Docs](https://developer.github.com/v3/)
-- [Check API directly](https://api.github.com/users/chaharshivam)
-
-To get data from API you can check [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) in javascript
-
-## Example projects
-
-- [GitHub profiles](https://github-profiles.netlify.app/) ([repo](https://github.com/GabrielNBDS/GitHub-Profiles))
-
-- [github-profile-search](https://github-profile-search-272901.web.app/) ([repo](https://github.com/guerra08/github-profile-search))
