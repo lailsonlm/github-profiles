@@ -14,9 +14,20 @@
 
 }
 
+html {
+  /* cada 1rem será considerado 10px */
+  font-size: 62.5%;
+}
+
 
 body {
-  font: 16px 'Poppins', sans-serif;
+  font: 1.6rem 'Poppins', sans-serif;
   color: #121214;
   background: var(--green-100);
+}
+
+@media (max-width: 1024px) {
+  html {
+      font-size: 50%;
+  }
 }

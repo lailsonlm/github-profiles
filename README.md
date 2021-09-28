@@ -4,6 +4,7 @@
 
 Aplicação desenvolvida para pesquisa de informações do usuário GitHub  utilizando sua API. Na pesquisa, quando um nome de usuário válido é inserido ele irá exibir avatar, nome de usuário, contagem de seguidores, contagem de repositório, 4 repositórios principais.
 
+- Ir para aplicação [aqui](https://github-profiles-lailsonlm.vercel.app/) 
 - Ideia retirada do [App-ideas](https://github.com/florinpop17/app-ideas)
 ## User Stories
 

@@ -75,7 +75,7 @@ export function ProfilesList() {
 
       {ProfileUser === '' ? '' : 
         <div className="result">
-          <ul>
+          <ul className="profileItem">
             <ProfilesItem user={user}/>
           </ul>
           <ul>

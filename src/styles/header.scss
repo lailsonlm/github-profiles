@@ -1,8 +1,8 @@
 header {
   display: flex;
   width: 100%;
-  height: 100px;
-  padding: 0 30px;
+  height: 12.0rem;
+  padding: 0 3.2rem;
 
   background: var(--green-750);
 
@@ -13,12 +13,12 @@ header {
     h1 {
       color: var(--green-250);
       font-weight: 500;
-      margin-right: 15px;
+      margin-right: 1.6rem;
     }
 
     svg {
-      width: 30px;
-      height: 30px;
+      width: 3.0rem;
+      height: 3.0rem;
 
       stroke: var(--green-250);
     }
