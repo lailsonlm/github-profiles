@@ -14,6 +14,35 @@
 
 }
 
+.light {
+  --bg: #e8fccf;
+  --bg-secondary: #f0fce0;
+  --bg-btn: #3da35d;
+  --bg-header: #3e8914;
+
+  --logo: #96e072;
+
+  --link: #3e8914;
+  --text-strong: #134611;
+  --text: #444;
+  --placeholder: #929292;
+}
+
+.dark {
+  --bg: #141414;
+  --bg-secondary: #292929;
+  --bg-btn: #134611;
+  --bg-header: #0a0a0a;
+
+  --logo: #96e072;
+
+  --link: #f0fce0;
+  --text-strong: #96e072;
+  --text: #929292;
+  --placeholder: #929292;
+}
+
+
 html {
   /* cada 1rem será considerado 10px */
   font-size: 62.5%;
@@ -22,8 +51,11 @@ html {
 
 body {
   font: 1.6rem 'Poppins', sans-serif;
-  color: #121214;
-  background: var(--green-100);
+}
+
+.App {
+  background: var(--bg);
+  color: var(--text);
 }
 
 @media (max-width: 1024px) {

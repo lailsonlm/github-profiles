@@ -8,7 +8,7 @@ main {
   padding: 2.4rem;
   margin: 0 auto;
 
-  background: var(--green-100);
+  background: var(--bg);
   
 
 
@@ -24,7 +24,7 @@ main {
 
       font: 1.6rem 'Poppins', sans-serif;
       font-weight: 500;
-      color: var(--green-900);
+      color: var(--text-strong);
 
       border: none;
       border-top-left-radius: 8px;
@@ -32,7 +32,7 @@ main {
 
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 
-      background: var(--green-150);
+      background: var(--bg-secondary);
       outline: none;
 
       transition: filter 0.2s;
@@ -42,7 +42,7 @@ main {
       }
 
       &:focus {
-        border: 1px solid var(--green-750);
+        border: 1px solid var(--bg-header);
         border-right: none;
       }
 
@@ -71,8 +71,8 @@ main {
 
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 
-      background: var(--green-500);
-      color: var(--green-900);
+      background: var(--bg-btn);
+      color: var(--text-strong);
       cursor: pointer;
 
       transition: filter 0.2s;
@@ -87,7 +87,7 @@ main {
         width: 1.8rem;
         height: 1.8rem;
         
-        fill: var(--green-900);
+        fill: var(--text-strong);
       }
     }
   }
@@ -98,7 +98,7 @@ main {
     align-items: top;
     justify-content: space-around;
 
-    background: var(--green-150);
+    background: var(--bg-secondary);
     border-radius: 8px;
     padding: 2.4rem;
     width: 90%;
@@ -106,6 +106,8 @@ main {
     display: flex;
 
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+    transform: 1s;
 
     ul.profileItem {
       list-style: none;
@@ -126,13 +128,13 @@ main {
             margin-left: 0.8rem;
 
             strong {
-              color: var(--green-900);
+              color: var(--text-strong);
               font-weight: 600;
             }
 
             p {
               font-size: 1.4rem;
-              color: #444;
+              color: var(--text);
               margin-top: 0.8rem;
             }
   
@@ -140,7 +142,7 @@ main {
               display: inline-block;
               margin-top: 1.6rem;
               text-decoration: none;
-              color: var(--green-750);
+              color: var(--link);
 
               transition: filter 0.2s;
 
@@ -158,7 +160,7 @@ main {
         list-style: none;
 
         strong {
-          color: var(--green-900);
+          color: var(--text-strong);
           font-weight: 600;
         }
 
@@ -166,7 +168,7 @@ main {
           display: inline-block;
           margin-top: 0.8rem;
           text-decoration: none;
-          color: var(--green-750);
+          color: var(--link);
 
           transition: filter 0.2s;
 
@@ -188,9 +190,13 @@ main {
 
 @media(max-width: 640px) {
   main {   
-    height: 100%;
     align-items: center;
-    justify-content: center;
+
+    .search {
+      display: flex;
+      margin-top: 0rem;
+
+    }
 
     .result {
       flex-direction: column;

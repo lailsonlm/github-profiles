@@ -57,8 +57,9 @@ export function ProfilesList() {
       })
   }
 
+
   return (
-    <main>
+    <main >
       <div className="search">
         <input 
           type="text" 

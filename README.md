@@ -15,5 +15,5 @@ Aplicação desenvolvida para pesquisa de informações do usuário GitHub  util
 -   [x] User should get an alert if the username is not valid
 
 ## Bonus features
--  [ ] User can toggle dark/light mode
--  [ ] Selected mode should persist when user comes back to the app again
+-  [x] User can toggle dark/light mode
+-  [x] Selected mode should persist when user comes back to the app again
